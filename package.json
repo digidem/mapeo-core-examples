@@ -1,0 +1,27 @@
+{
+  "name": "mapeo-core-examples",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digidem/mapeo-core-examples.git"
+  },
+  "keywords": [
+    "mapeo"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digidem/mapeo-core-examples/issues"
+  },
+  "homepage": "https://github.com/digidem/mapeo-core-examples#readme",
+  "dependencies": {
+    "@mapeo/core": "github:digidem/mapeo-core-next#authstore",
+    "@mapeo/crypto": "github:digidem/mapeo-crypto",
+    "random-access-memory": "^6.1.0"
+  }
+}
